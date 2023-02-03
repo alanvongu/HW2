@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Form Page</title>
+</head>
+<body>
+  <a href="index.html">Go to Intro Page</a>
+  <h2>Form Page</h2>
+  <h4> Fill out the following form:</h4>
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+
+    <label for= "password">Password:</label>
+    <input type= "password" id="password" name="password">
+
+    <label> Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+
+    <label for="newsletter">Subscribe to Newsletter:</label>
+    <input type="checkbox" id="newsletter" name="newsletter">
+    <label for="promotions">Subscribe to Promotions:</label>
+    <input type="checkbox" id="promotions" name="promotions">
+
+    <label for="subscription">Choose your subscription:</label>
+    <select id="subscription" name="subscription" multiple>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      <option value="option4">Option 4</option>
+    </select>
+
+    <label for="startdate">Start Date:</label>
+    <input type="date" id="startdate" name="startdate" required>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
